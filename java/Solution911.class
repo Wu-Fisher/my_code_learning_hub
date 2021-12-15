@@ -20,7 +20,7 @@ class TopVotedCandidate911 {
         int r=list.size()-1;
         while(l<r)
         {
-            //这里+1很重要
+            //这里+1很重要，防止mid一开始等于l，然后不小心死循环
             int mid=(l+r+1)/2;
             if(list.get(mid)[0]<=t)l=mid;
             else r=mid-1;
