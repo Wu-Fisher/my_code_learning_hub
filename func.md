@@ -71,3 +71,4 @@
     1.String s, s.toCharArray()返回一个字符数组
     2.Character.isLetter(c) 判断c是否是字母
     3.Character.toLowerCase(c) 如果c为大写字母，返回他的小写，如果是小写则不变
+
