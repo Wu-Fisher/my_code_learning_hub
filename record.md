@@ -480,3 +480,24 @@ aK=a(⌊10K⌋∗10)+(Kmod10)=a(⌊10K⌋∗10)∗a(Kmod10)=(a⌊10K⌋)10∗a(K
     模拟题，这里对于因数的优化在i<=num/i上，避免了使用sqrt函数
     并且因数成对出现，所以我们记得把一大一小都模拟加上
     个人认为这里需要针对完全平方数，处理一下整数根的问题
+
+### 2119.翻转两次的数字
+    要么为0，要么数字末尾不带0
+
+### 2120.执行所有后缀指令
+    暴力模拟即可
+    记得case要break
+
+### 2121.相同元素的间隔之和
+    计算所有相同元素的下标差之和
+    数学题
+    这里是通过得到相同元素第一个和其他的距离，推算出其他元素到另外所有元素的距离（具体看代码，java第一大佬太强了）
+    Java HashMap computeIfAbsent() 方法
+    hashmap.computeIfAbsent(K key, Function remappingFunction)
+    如果 key 对应的 value 不存在，则使用获取 remappingFunction 重新计算后的值，并保存为该 key 的 value，否则返回 value。
+
+``` java
+Map<Integer, List<Integer>> map = new HashMap<>();
+map.computeIfAbsent(arr[i], t -> new ArrayList<>()).add(i);
+```
+    这一段代码的意思是，如果map中没有arr[i]的key值的时候，重新加入一个(arr[i],List[])的entry(执行后面的lambda函数)，并且返回list，这里后续的add(i)为操作他返回的list.add(i)
