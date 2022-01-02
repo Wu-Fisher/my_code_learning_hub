@@ -501,3 +501,13 @@ Map<Integer, List<Integer>> map = new HashMap<>();
 map.computeIfAbsent(arr[i], t -> new ArrayList<>()).add(i);
 ```
     这一段代码的意思是，如果map中没有arr[i]的key值的时候，重新加入一个(arr[i],List[])的entry(执行后面的lambda函数)，并且返回list，这里后续的add(i)为操作他返回的list.add(i)
+
+### 390.消除游戏
+    数字1，n严格连续升序，从左到右面删，从右到左删（间隔），返回最后剩下的元素
+    类似于求解约瑟夫环
+    设f[i]为[1,i]删去后剩下左边的编号，带`的为从右边删除左边剩下的,得到的结果具有对称性    
+$f[i]+f′[i]=i+1$
+
+$f[i]=2*f′[i/2]$
+
+$f[i]=2∗(⌊i/2​⌋+1−f[⌊i/2​⌋]$

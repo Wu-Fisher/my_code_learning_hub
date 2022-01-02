@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 class Solution2090 {
     public int[] getAverages(int[] nums, int k) {
             int n=nums.length;
