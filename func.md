@@ -54,6 +54,9 @@
             put("9", new String[]{"w", "x", "y", "z"});                  
                 }
             };
+    10. 
+    Map<Integer, List<Integer>> map = new HashMap<>();
+    map.computeIfAbsent(arr[i], t -> new ArrayList<>()).add(i);
 ## Deque
     1.Deque<*> d= new ArrayDeque<>();
     2.o=d.peekLast(); 返回最右端
@@ -71,4 +74,5 @@
     1.String s, s.toCharArray()返回一个字符数组
     2.Character.isLetter(c) 判断c是否是字母
     3.Character.toLowerCase(c) 如果c为大写字母，返回他的小写，如果是小写则不变
+    4.String.valueOf(cs) cs为字符串数组， 
 
