@@ -727,3 +727,17 @@ $f[i]=2∗(⌊i/2​⌋+1−f[⌊i/2​⌋]$
     同理对于arr构成的真分数，也可以看作多路的一个归并，类似前面两题，所以这里不在举例子
 
     代码中含有Arraylist构建方法，还有double类型的比较
+
+
+### 1716.计算力扣银行的钱
+    简单模拟题
+
+    这里记录一下别人牛逼的做法
+```python
+class Solution:
+    def totalMoney(self, n: int) -> int:
+        return (div:=n//7) * (div + 7) * 7 // 2 + (1 + (r:=n%7)) * r // 2 + div * r
+```
+
+
+
