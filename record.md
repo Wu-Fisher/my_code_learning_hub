@@ -738,6 +738,32 @@ class Solution:
     def totalMoney(self, n: int) -> int:
         return (div:=n//7) * (div + 7) * 7 // 2 + (1 + (r:=n%7)) * r // 2 + div * r
 ```
+    那就再多写一点，这里python中的海象表达式“：=”
+
+    最基本用法是在运算表达式中插入达到赋值的作用。这里补充一下他的优化性能作用
+    
+    例如，正常写列表推导式
+```python
+nums = [16, 36, 49, 64]
+def f(x):
+    print('运行了函数f(x)1次。')
+    return x ** 0.5
+print([f(i) for i in nums if f(i) > 5])
+```
+    上述会运行fx七次（3次成立，4次判断）
+
+    但是如果我们改写，利用：=和一个格外变量
+
+```python
+nums = [16, 36, 49, 64]
+def f(x):
+    print('运行了函数f(x)1次。')
+    return x ** 0.5
+print([n for i in nums if (n := f(i)) > 5])
+```
+    这样就会只运行四次
+
+    对于复杂的函数具有较好的优化效果
 
 
 
