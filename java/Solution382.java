@@ -14,8 +14,8 @@ class Solution382 {
     ListNode head;
     Random random = new Random(20220116);
 
-    public Solution(ListNode _head) {
-        head=_head;
+    public Solution382(ListNode _head) {
+        head = _head;
     }
 
     public int getRandom() {
