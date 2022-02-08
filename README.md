@@ -1,4 +1,4 @@
-# my_leetcode_learning_hub
+# my_code_learning_hub
 ## 记事本系列
     
 [record Firstyear](./recordBook_1.md)
