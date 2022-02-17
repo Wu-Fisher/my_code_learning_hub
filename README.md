@@ -8,6 +8,9 @@
 
 [record Secondyear](./recordBook_2.md)
 更新中...
-    
+
+[record Englishword](./recordBook_En.md)
+更新中...
+
 [func java](./func.md)
 java函数tips
