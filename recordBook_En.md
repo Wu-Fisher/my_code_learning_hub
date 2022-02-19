@@ -368,3 +368,23 @@
     encapsulate 封装
     analogy 比喻
     bizarre 奇怪的，想不到的
+
+### 2/18
+#### csapp
+    sparse 稀疏的
+    overhead 开销
+    stack frame 栈帧
+    explict 显式的
+    get decremented 减少
+    refined 深入的，精细的
+    caller saved 调用者保存
+    callee saved 被调用者保存
+
+### 2/19
+#### csapp
+    arbitrary 随意的，任意的
+    dereference 间接引用
+    aggregate 聚合的
+    cliff 悬崖
+    interleaved 交错的共享的
+    miscellaneous 五花八门的
