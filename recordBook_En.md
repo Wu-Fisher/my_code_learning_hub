@@ -388,3 +388,31 @@
     cliff 悬崖
     interleaved 交错的共享的
     miscellaneous 五花八门的
+    corrupt 污染
+    culprit 罪魁祸首
+    concatenate 拼接
+    ASLR address space layout randomization
+    canary 金丝雀，安全检查
+    gadget 小东西，没用的东西
+
+
+### 2/20
+#### csapp
+    illegible 无法读懂的
+    gigahertz 赫兹
+    redundancy 冗余
+    latency 延迟
+    memory hierarchy 内存层次结构
+    be plugged in 被插入（充电）
+    volatile 易丢失，修改的
+    counterclockwise 逆时针
+    trace 同心园
+    secter 字节
+    cylinder 盘面
+    I/O bus 总线
+    be proportional to 成正比
+    order magnitude 成数量级
+    locality 相邻性
+
+#### Great British
+    
