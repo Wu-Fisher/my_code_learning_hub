@@ -416,3 +416,14 @@
 
 #### Great British
     
+
+### 2/21
+#### csapp
+    evicted 被 弹出
+    timestamps 时间戳
+    metric 指标
+    jitter 抖动
+    memory mountain 内存山
+    cursed 受祝福的
+    wander 徘徊
+    permutation 排列
