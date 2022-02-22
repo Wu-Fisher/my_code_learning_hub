@@ -427,3 +427,33 @@
     cursed 受祝福的
     wander 徘徊
     permutation 排列
+
+### 2/22
+#### csapp
+    hyper-thread 超线程
+    interwined 交互的
+    SMT simultaneous multi-threading 同步多线程
+    semaphores 信号量
+    mutual exclusion 互斥
+    fine-grained 粒度很低
+    synchronization 同步
+    monopoly 垄断
+    algebra 代数
+    bottleneck 瓶颈
+    chop off 去掉
+    non-trivial 不简单的
+    asynchronous 异步
+    serially 序列地
+    snooby cache 一种缓存机制
+    invalid shared（cache inside） exclusive
+    sanction 禁令
+    sovereignty 支配权
+    territorial integrity 土地权
+    modularity 模块化
+    amend 增幅
+    archive 存档
+    duplication 重复
+    deferred 延期的
+    monitor 监视
+    profile 分析
+    inner position 内部打桩定位
