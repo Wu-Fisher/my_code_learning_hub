@@ -12,13 +12,15 @@
 [record Englishword](./recordBook_En.md)
 更新中...
 
+[resume](./resume/resume_2_23.pdf)
+resume_2_23
+
 [record BOOK](./books/)
 更新中
 
 [func java](./func.md)
 java函数tips
 
-[resume]
 
 ### tips
     如何讲md转为pdf：将github中md的网址中的github改为gitprint
