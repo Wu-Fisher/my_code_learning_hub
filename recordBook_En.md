@@ -457,3 +457,29 @@
     monitor 监视
     profile 分析
     inner position 内部打桩定位
+
+### 2/23
+#### csapp
+    abort 终止
+    trap 陷阱
+    concurrency 并发
+    dignity 尊严
+    tight 紧凑
+    wrapper 包装器
+    vertex 顶点
+    topology 拓扑
+    feasible 可行的
+    tortune 折磨 
+    reaped 回收
+    ampersand &和符号
+    violation 违反
+    thorniest 棘手的
+    semantics 语义
+    tournament 名字
+    pending 待定的
+    suspend 暂停
+    diligence 勤勉
+    pedantic 迂腐的
+    cue 提醒
+    friction 摩擦
+    volatile 可疑的（不放进寄存器）
