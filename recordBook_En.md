@@ -450,7 +450,7 @@
     sovereignty 支配权
     territorial integrity 土地权
     modularity 模块化
-    amend 增幅
+    amend 修正
     archive 存档
     duplication 重复
     deferred 延期的
@@ -482,4 +482,20 @@
     pedantic 迂腐的
     cue 提醒
     friction 摩擦
-    volatile 可疑的（不放进寄存器）
+    volatile 挥发的，可疑的,易变的（不放进寄存器）
+
+### 2/24
+#### ca
+    the sea change 变化
+    benchmark 标准
+    uniprocessor 单核 
+    terminology 说法
+    chunky 扁平
+    roof 屋顶
+    interpreter 解释器
+    infracstructure 基础建筑
+    neutralized 被压制
+    palatable 可口，易用
+    probe 探测
+    spwan 发生，产生
+    error prone 容易出错
