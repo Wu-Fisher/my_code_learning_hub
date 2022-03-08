@@ -499,3 +499,21 @@
     probe 探测
     spwan 发生，产生
     error prone 容易出错
+
+### 3/5 
+#### csapp
+
+    intercept 拦截
+    scatter 分布，散开
+    mapping function 映射
+    trade-off 权衡
+    victim 牺牲，受害
+    evict 驱逐
+    slide 幻灯片
+    disambiguate 区分
+
+
+### 3/7
+#### csapp
+
+    
