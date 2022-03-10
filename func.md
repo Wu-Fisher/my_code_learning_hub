@@ -76,3 +76,8 @@
     3.Character.toLowerCase(c) 如果c为大写字母，返回他的小写，如果是小写则不变
     4.String.valueOf(cs) cs为字符串数组， 
 
+## Scanner
+
+    scan.nextInt();
+    scan.nextLine();
+    
