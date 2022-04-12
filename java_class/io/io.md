@@ -17,6 +17,11 @@ File file = new File("a.txt");
 
 // 如果要创建新文件
 file.createNewFile();
+
+// 或者使用操作方法，可以直接创新文件
+
+Writer w = new FileWriter("c.txt");
+
 ```
 
 
@@ -62,4 +67,13 @@ file.createNewFile();
     }
 
 
+```
+
+### 是否覆盖原有内容
+
+在处理输出流的时候，参数append 改为true
+
+```java
+FileWriter(String fileName, boolean append)
+FileOutputStream(String name, boolean append)
 ```
