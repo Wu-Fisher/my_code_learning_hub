@@ -25,8 +25,8 @@
 
  ## <img src="assets/info-circle-solid.svg" width="30px"> 个人信息 
  - 吴桐
- - 男，2001 年出生
- - 实习意向：Java 开发（可根据项目要求学习相关技术）
+ - 男，2001 年
+ - 实习意向：开发岗
  - 在校大学本科生
  - 希望通过实习，尽全力学习工作相关知识并完成工作，丰富自己的技术栈和项目经验
 
@@ -62,7 +62,7 @@
 
 ## <img src="assets/tools-solid.svg" width="30px"> 技能清单
 
-- ★★☆ Java
-- ★★☆ C、Python
+- ★★☆ Java开发
+- ★★☆ Python
 - ★★☆ 算法，数据结构，计组计网等计科基础知识
-- ★☆☆ deeplearning optimization
+- ★☆☆ 机器学习
