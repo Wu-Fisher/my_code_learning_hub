@@ -1,0 +1,9 @@
+### 5.6
+tantalizing 诱人的
+molecule 分子
+tube 管子
+spontaneously 自发的
+parasite 寄生虫
+criteria 标准
+patchwork 拼凑而成
+deprecated 过时的，弃用的
