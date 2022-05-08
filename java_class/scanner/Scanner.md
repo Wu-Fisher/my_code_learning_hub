@@ -9,6 +9,9 @@ int num = scan.nextInt();
 // or 
 String strs = scan.nextLine();
 
+// 删除字符串头尾的做法
+strs.trim();
+
 scan.close();
 ```
 
@@ -90,4 +93,35 @@ example:
 > \n
 > Sus 
 
+```
+⑤ 还可以ctrl + z 输入EOF 停止读入
+
+！ 貌似OJ平台给的输入如果不给矩阵大小，好像这里可以直接不用判断循环条件
+
+问题在：[转载学习](https://marshzero.github.io/2021/03/17/Java%E8%BE%93%E5%85%A5%E8%BE%93%E5%87%BA%E6%96%B9%E6%B3%95%E6%80%BB%E7%BB%93/)
+
+当匹配到时，例如当前位置为\n，或者当前位置为有效字符，但有效字符后由结束符(\n或\r或\n\r或\r\n)，hasNextLine()会返回true；
+
+hasNext 类似，都会等待下一波输入从而无法停止
+
+但是oj里面的数据，最后没有带\n，就不会等待下一次输入
+
+``` java
+import java.util.Scanner;
+
+public class Main{
+    public static void main(String[] args) {
+        Scanner scan = new Scanner(System.in);
+        while (scan.hasNext()) {
+            int a = scan.nextInt();
+            int b = scan.nextInt();
+            System.out.println(a+b);
+        }
+    }
+}
+
+用例：
+1 5
+10 20
+scan.buf:"1 5\n10 20"
 ```
