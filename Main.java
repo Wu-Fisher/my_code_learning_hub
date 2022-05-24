@@ -4,15 +4,6 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        Scanner scan = new Scanner(System.in);
-        while (scan.hasNextLine()) {
-
-            String num = scan.nextLine();
-            if (num == "")
-                break;
-            System.out.println(num);
-
-        }
-        System.out.println("Sus");
+        System.out.println("hello world!");
     }
 }
