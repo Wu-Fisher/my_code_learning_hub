@@ -1314,3 +1314,76 @@ $$
 
 <br>
 <br>
+
+### 732.我的日程安排表 III hard 6/6
+
+线段树 
+
+简单来说从第一个节点开始，第一个节点储存所有节点之和
+
+管理下标为节点标号为 i  储存为 [s,t] 之和
+
+左节点标号为 2i  右节点标号为 2i+1
+
+左节点和为[s,(s+t)/2] 左节点之和为[(s+t)/2+1,t]
+
+``` c++
+
+// c++ 版本
+
+// 别问我为什么不写java，反正也差不多
+
+// oi中 d的下标应该是从1开始
+
+// 
+
+// 线段数组
+int[] d;
+
+// 原数组
+int[] a;
+
+// 初始化 build(0,n-1,1)
+void build (int s,int t, int p)
+{
+    if(s==t)
+    {
+        d[p]=a[s];
+        return;
+    }
+
+    int m = s+((t-s)>>1);
+    
+    build(s,m,2*p);
+    build(m+1,t,2*p+1);
+
+    d[p]=d[2*p]+d[2*p+1];
+}
+
+// l r 为查询的范围
+
+// s t 为 节点p所包含的范围
+
+// 一开始查询调用
+
+// getsum(l,r,0,n-1,1)
+int getsum(int l ,int r, int s, int t, int p)
+{
+    if(l<=s && t<=r)
+    {
+        return d[p];
+    }
+
+    int m = s+((t-s)>>1);
+    int sum=0;
+    if(l<=m)
+    {
+        sum+=getsum(l,r,s,m,2*p);
+    }
+    if(m<r)
+    {
+        sum+=getsum(l,r,m+1,t,2*p+1);
+    }
+    return sum;
+}
+```
