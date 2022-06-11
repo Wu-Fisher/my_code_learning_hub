@@ -63,3 +63,67 @@ have profound implications for
 incentives 激励措施
 
 anticipate 预料
+
+### 袁隆平
+
+commemorate 纪念
+
+Father of hybrid rice 杂交水稻之父
+
+rice field 稻田
+
+die of 死于
+
+pay tribute to sb 展示敬意
+
+cultivate 栽培
+
+honor ones memory
+
+video chips 录像
+
+sth goes viral 走红
+
+respiratory disease 呼吸系统疾病
+
+donate 捐赠
+
+possession 财富
+
+speed up 加速
+
+to speed up key technological breakthroughs in hybrid rice research
+
+aforementioned 之前提到的
+
+transform 转变
+
+hashtag 话题标签
+
+as of 截止到
+
+
+### 在线健身浪潮
+
+opt to 选择
+
+work out 锻炼
+
+Ring Fit Adventure 健身环大冒险
+
+role-playing game 角色扮演游戏
+
+imitate 模仿
+
+on-screen dancers 屏幕上的舞者
+
+hinder sb fro doing sth
+
+fitness game 健身游戏
+
+immersive atmosphere 沉浸式氛围
+
+indoor cycling 动感单车
+
+### 拜拜谷爱凌
+
